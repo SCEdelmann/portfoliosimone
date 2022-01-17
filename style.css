@@ -1,0 +1,396 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: black;
+  }
+  
+  .navigation {
+    position: fixed;
+    background: rgb(7, 7, 7);
+    z-index: 1000;
+    width: 100vw;
+  }
+  #menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 30px 10px;
+  }
+  
+  #menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+  #menu ul li {
+    display: inline;
+    font-weight: 600;
+    width: 80px;
+  }
+  #menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    font-size: medium;
+    font-family: fantasy;
+    color: white;
+  }
+  
+  .title {
+    height: 100vh;
+    background-image: url(./../img/backgraund\ Simone\ 2.jpeg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-content {
+    display: grid;
+    justify-content: center;
+    grid-gap: 30px;
+  }
+  
+  .title-content h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .btn-main {
+    
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    max-width: fit-content;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .aboutme {
+    display: grid;
+    height: 95vh;
+    justify-content: center;
+    grid-gap: 30px;
+    color: #fff;
+    align-items: center;
+  }
+  
+  .aboutme.main-wrap h2 {
+    display: grid;
+    margin: 0;
+    text-align: center;
+    height: fit-content;
+    text-decoration: underline; 
+  }
+  .container1 {
+    display: grid;
+    justify-content: center;
+    border-style: double;
+    text-align: center;
+    letter-spacing: 2.5px;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  .skills {
+    display: grid;
+   
+    color: white;
+    height: 96vh;
+    padding-top: 88px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .skills h2 {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  #myskills {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2.5px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    align-items: center;
+    height: fit-content;
+  }
+  .skillBox i {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .skillBoxWrap1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+  
+  .gifsskillbox1 {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+  }
+  
+  .gifsskillbox1 img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    border-style: double;
+    text-align: center;
+    font-size: 0.8rem;
+    }
+    .gifsskillbox1 p {
+      margin: 0;
+  }
+  .skillBox {
+    align-content: center;
+    align-items: center;
+    border: white;
+    display: grid;
+    justify-content: center;
+    border-style: double;
+    text-align: center;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 0.8rem;
+    max-height: 150px;
+    width: auto;
+    height: 60px;
+  }
+  
+  .skillBox h3 {
+    margin: 0;
+  }
+  
+  .projects {
+    display: grid;
+    color: white;
+    height: 90vh;
+    padding-top: 50px;
+  }
+  .myprojects {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2.5px;
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: center;
+    height: fit-content;
+    padding-top: 20px;
+  }
+.myprojectsmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+  .project1 {
+    align-content: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    max-height: 150px;
+    width: auto;
+    height: 60px;
+    letter-spacing: 2.5px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    height: fit-content;
+  }
+  .project1 img {
+    max-width: 260px;
+    max-height: 175px;
+    display: grid;
+    justify-content: center;
+    border-style: double;
+    text-align: center;
+    font-size: 0.8rem;
+    object-fit: cover;
+  }
+  .project1 h3 a.button {
+  color: white;
+  }
+  
+  .contact {
+    text-align: center;
+    display: grid;
+    color: #fff;
+    justify-content: center;
+    border-style: double;
+    text-align: center;
+    letter-spacing: 2.5px;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    height: fit-content; 
+    height: 100vh;
+  }
+  .contactbase {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2.5px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    align-items: center;
+    height: fit-content;
+    text-decoration: underline;
+  }
+  .contact1 {
+    display: grid;
+  }
+  .contact1 h4 {
+    
+    margin: 0;
+    padding: 2px 10px;
+    display: inline-block;
+    font-size: medium;
+    color: white;
+  } 
+  
+  .contact1 h4 a {
+    margin: 0;
+    padding: 2px 10px;
+    display: inline-block;
+    font-size: medium;
+    color: white;
+  } 
+  .contact1 p {
+    display: grid;
+    margin: 0;
+    font-style: italic;
+  }
+  
+  
+  .sendme {
+    display: grid;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    background-image: url(./../img/cópia\ de\ msn.tiff);
+    
+  }
+  .sendeme1 h2 {
+    font-family: fantasy;
+  }
+  .sendeme h2 p form {
+    display: grid;
+    margin: 0 0;
+    background-color: black;
+  }
+  .container8 {
+    font-size: 20px;
+    display: grid;
+    padding-top: 45px;
+  }
+  .container8 p {
+    margin: 0;
+    display: grid;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .container8 select {
+  font-size: 22px;
+  border-style: groove;
+  border-radius: 10px;
+  }
+  
+  #fname {
+  font-size: 22px;
+  border-style: groove;
+  border-radius: 10px;
+  }
+  #fservice {
+  font-size: 22px;
+  border-style: groove;
+  border-radius: 10px; 
+  }
+  
+  #femail {
+  font-size: 22px;
+  border-style: groove;
+  border-radius: 10px;
+  }
+  
+  #fquestion {
+  font-size: 22px;
+  border-style: groove;
+  border-radius: 10px; 
+  }
+  
+  
+  
+  
+  .thanks {
+    display: grid;
+    color: white;
+    padding-top: 50px;
+  }
+  .highfive select {
+    font-size: x-large;
+  }
+  
+  .footercontainer {
+    display: grid;
+    color: white;
+    padding-top: 50px;
+    font-size: small;
+    justify-content: center;
+  }
+  .footercontainer p {
+    display: grid;
+    color: white;
+    padding-top: 50px;
+    font-size: 15px;
+    justify-content: center;
+   }
+   .contactdaten {
+    text-align: center;
+   }
+.contactdaten a {
+    font-size: 20px;
+}
+
+  <!Colocar a pagina centralizada>
+  
+  .main-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .btn-main {
+      background: red;
+    }
