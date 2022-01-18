@@ -40,7 +40,7 @@ body {
   
   .title {
     height: 100vh;
-    background-image: url(./../img/backgraund\ Simone\ 2.jpeg);
+    background-image: url(./img/backgroundSimone2.jpeg);
     background-size: cover;
     display: grid;
     justify-content: center;
